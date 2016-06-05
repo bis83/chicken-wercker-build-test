@@ -5,6 +5,9 @@ box:
 build:
   steps:
     - script:
+      name: chicken version
+      code: csi -version 
+    - script:
       name: chicken build
       code: csc main
 
