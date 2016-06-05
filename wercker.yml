@@ -1,4 +1,6 @@
-box: lang/chicken
+box:
+  id: lang/chicken:latest
+  entrypoint: /bin/bash -c
 
 build:
   steps:
