@@ -1,6 +1,6 @@
 box:
   id: krrrcks/chicken-alpine:latest
-  entrypoint: /bin/sh
+  cmd: /bin/sh
 
 build:
   steps:
