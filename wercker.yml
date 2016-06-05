@@ -1,5 +1,5 @@
 box:
-  id: krrcks/chicken-alpine:latest
+  id: krrrcks/chicken-alpine:latest
   entrypoint: /bin/bash -c
 
 build:
