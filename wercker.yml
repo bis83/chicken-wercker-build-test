@@ -1,5 +1,5 @@
 box:
-  id: lang/chicken:latest
+  id: krrcks/chicken-alpine:latest
   entrypoint: /bin/bash -c
 
 build:
@@ -7,6 +7,9 @@ build:
     - script:
       name: chicken version
       code: csi -version 
+    - script:
+      name: chicken run
+      code: csi main
     - script:
       name: chicken build
       code: csc main
